@@ -17,7 +17,7 @@ const Socials = () => {
   return (
     <div className="flex items-center gap-x-5 text-lg">
       <Link
-        href={"https://github.com/dannyelgjl"}
+        href={"https://github.com/pauloabrantesii"}
         target="_blank"
         className="hover:text-accent transition-all duration-300"
       >
@@ -27,7 +27,7 @@ const Socials = () => {
         <RiFacebookLine />
       </Link> */}
       <Link
-        href={"https://www.instagram.com/danieljeronimo_"}
+        href={"https://www.instagram.com/paulo_abrantesii"}
         className="hover:text-accent transition-all duration-300"
         target="_blank"
       >

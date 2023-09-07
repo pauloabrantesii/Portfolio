@@ -5,141 +5,18 @@ export const workSlider = {
       images: [
         {
           title: "title",
-          path: "/live.png",
-          url: "https://www.liveoficial.com.br/",
+          path: "/csf-banner.png",
+          url: "https://play.google.com/store/apps/details?id=com.csf.cliente&hl=pt_BR&gl=US",
         },
         {
           title: "title",
-          path: "/midwayy.png",
-          url: "https://play.google.com/store/apps/details?id=br.com.midway&hl=pt_BR&gl=BR",
-        },
-
-        {
-          title: "title",
-          path: "/banco-do-brasil.png",
-          url: "https://apps.apple.com/br/app/banco-do-brasil-abrir-conta/id330984271",
+          path: "/doctors.png",
+          url: "",
         },
         {
           title: "title",
-          path: "/riachuelo.png",
-          url: "https://play.google.com/store/apps/details?id=br.com.riachuelo.app&hl=pt_BR&gl=US",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/guanabara.png",
-          url: "https://play.google.com/store/apps/details?id=com.bancoguanabara",
-        },
-        {
-          title: "title",
-          path: "/techbalance.png",
-          url: "https://www.techbalance.com.br/",
-        },
-        {
-          title: "title",
-          path: "/jfl.png",
-          url: "https://seujflliving.com.br/vhouse",
-        },
-        {
-          title: "title",
-          path: "/raia.png",
-          url: "https://play.google.com/store/apps/details?id=br.com.drogaraia&hl=pt_BR&gl=US",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/meu-carrinho.png",
-          url: "https://meucarrinho.delivery/",
-        },
-        {
-          title: "title",
-          path: "/sem-parar.png",
-          url: "https://apps.apple.com/br/app/sem-parar/id1440651231",
-        },
-        {
-          title: "title",
-          path: "/livelo.png",
-          url: "https://www.livelo.com.br/",
-        },
-        {
-          title: "title",
-          path: "/valorant.png",
-          url: "https://playvalorant.com/pt-br/",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/gc.png",
-          url: "https://gamersclub.gg/",
-        },
-        {
-          title: "title",
-          path: "/banqi.png",
-          url: "https://apps.apple.com/br/app/banqi-conta-digital/id1457893925",
-        },
-        {
-          title: "title",
-          path: "/santa-joana.png",
-          url: "https://play.google.com/store/apps/details?id=br.com.mv.personalhealth.santajoana&hl=pt_BR&gl=US",
-        },
-        {
-          title: "title",
-          path: "/mob4pay.png",
-          url: "https://www.mob4pay.com.br/",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "title",
-          path: "/linx.png",
-          url: "https://www.linx.com.br/",
-        },
-        {
-          title: "title",
-          path: "/seasoned.png",
-          url: "https://www.seasoned.cc/",
-        },
-        {
-          title: "title",
-          path: "/code7.png",
-          url: "https://code7.com/",
-        },
-        {
-          title: "title",
-          path: "/ps6Group.png",
-        },
-      ],
-      images: [
-        {
-          title: "title",
-          path: "/sesc.png",
-          url: "https://play.google.com/store/apps/details?id=br.org.sesc.credencialvirtual&hl=pt_BR&gl=US",
-        },
-        {
-          title: "title",
-          path: "/lello.png",
-          url: "https://www.lellocondominios.com.br/",
-        },
-        {
-          title: "title",
-          path: "/safra.png",
-          url: "https://play.google.com/store/apps/details?id=br.livetouch.safra.net&hl=pt_BR&gl=US",
-        },
-        {
-          title: "title",
-          path: "/unifique.png",
-          url: "https://play.google.com/store/apps/details?id=com.unifiqueapp&hl=pt_BR&gl=US",
+          path: "/github.png",
+          url: "https://github.com/pauloabrantesii",
         },
       ],
     },

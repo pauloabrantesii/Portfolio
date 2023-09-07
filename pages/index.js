@@ -26,8 +26,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Materializando Sonhos <br /> em{" "}
+            <span className="text-accent">Realidade Digital</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -37,10 +37,8 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            My name is Daniel Jerônimo, I am a computer scientist passionate
-            about technology, specialist in the development of web and mobile
-            platforms, working in the market for more than 8 years, transforming
-            dreams into reality
+            Meu nome é Paulo Roberto, sou estudante de Sistemas para Internet na
+            Uniesp-PB. Atuo com desenvolvimento de plataformas web e mobile
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative z-50">

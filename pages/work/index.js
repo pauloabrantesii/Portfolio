@@ -23,7 +23,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              My work <span className="text-accent">.</span>
+              Meus Trabalhos <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -32,8 +32,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Here are some of the projects I participated in and developed,
-              platforms that help millions of people every day.
+              Aqui estão alguns dos projetos nos quais participei e desenvolvi.
             </motion.p>
           </div>
 

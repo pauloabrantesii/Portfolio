@@ -24,36 +24,21 @@ import {
 //  about data
 export const aboutData = [
   {
-    title: "skills",
+    title: "Habilidades",
     info: [
       {
-        title: "Mobile and Web Development:",
+        title: "Desenvolvimento Mobile e Web :",
         icons: [
           <FaHtml5 key={0} />,
           <FaCss3 key={1} />,
           <FaJs key={2} />,
           <FaReact key={3} />,
-          <SiNextdotjs key={4} />,
-          <SiTypescript key={5} />,
-          <SiRedux key={7} />,
+          <SiTypescript key={4} />,
         ],
       },
       {
         title: "UI/UX Design:",
-        icons: [
-          <FaFigma key={0} />,
-          <SiAdobexd key={1} />,
-          <SiAdobephotoshop key={2} />,
-        ],
-      },
-      {
-        title: "Back-End:",
-        icons: [
-          <FaNodeJs key={0} />,
-          <FaPython key={1} />,
-          <SiPostgresql key={2} />,
-          <SiMongodb key={3} />,
-        ],
+        icons: [<FaFigma key={0} />],
       },
     ],
   },
@@ -71,70 +56,51 @@ export const aboutData = [
   //   ],
   // },
   {
-    title: "experience",
+    title: "experiência",
     info: [
       {
-        title: "Founder - SwipeUp Technology",
-        // stage: "2012 - 2023",
-        // stage:
-        //   "Founder of Swipe Up Technology, focused on turning dreams into reality through technology",
+        title: "Fundador - Rocket Solutions",
       },
       {
-        title: "Software Engineer - Linx",
-        // stage: "2010 - 2012",
-      },
-      {
-        title: "Software Engineer - Midway",
-        // stage: "2008 - 2010",
-      },
-      {
-        title: "Software Engineer - Lyncas",
-        // stage: "2008 - 2010",
-      },
-      {
-        title: "Software Engineer - Banco do Brasil Americas",
-        // stage: "2008 - 2010",
-      },
-      {
-        title: "Software Engineer - Indra",
-        // stage: "2008 - 2010",
+        title: "Front end Developer - Fabrika",
+        // stage: "2023 - ",
       },
     ],
   },
   {
-    title: "credentials",
+    title: "Certificados",
     info: [
       // {
       //   title: "BootCamp - Rocketseat",
       //   stage: "2011",
       // },
       {
-        title:
-          "Computer Science University Degree - University Center of João Pessoa - UNIPÊ",
+        title: "Graduando em Sistemas para Internet - Uniesp - PB",
         // stage: "2009",
       },
       {
-        title: "Certified Bootcamp - Rocketseat",
-        stage: "2019",
+        title: "Certificado Bootcamp - Rocketseat",
+        // stage: "2023",
       },
       {
-        title: "Certified Bootcamp - Rocketseat",
-        stage: "2020",
+        title: "Certificado Bootcamp - Rocketseat",
+        // stage: "2023",
       },
       {
-        title: "Certified Ignite - Rocketseat",
-        stage: "2021",
+        title: "Certificado Ignite - Rocketseat",
+        // stage: "2023",
       },
       {
-        title: "Certified Ignite - Rocketseat",
-        stage: "2022",
+        title: "Certificado Ignite - Rocketseat",
+        // stage: "2023",
       },
       {
-        title: "Certified Ignite - Rocketseat",
-        stage: "2023",
+        title: "Certificado Ignite - Rocketseat",
+        // stage: "2023",
       },
       {
-        title: "Certified - Architecture for the Web and Mobile",
+        title:
+          "Certificado - Desenvolvimento WebReact JS React do Zero a Maestria - Udemy",
         // stage: "2023",
       },
     ],
@@ -156,7 +122,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
   return (
-    <div className="md:overflow-visible overflow-auto h-full bg-primary/30 py-32 text-center xl:text-left" >
+    <div className="md:overflow-visible overflow-auto h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
       {/* avatar img */}
       <motion.div
@@ -178,8 +144,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Narrativas <span className="text-accent">envolventes</span> geram
+            designs esplêndidos.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -188,9 +154,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            8 years ago, I began freelancing as a developer. Since then, Ive
-            done remote work for agencies, counsulted for startups, and
-            collaborated on digital products for business and consumer use.
+            Há 2 anos, iniciei meus estudos para me tornar um desenvolvedor
+            front-end. Desde então, venho me aperfeiçoando na área. Hoje, faço
+            parte de uma equipe de desenvolvedores de aplicativos móveis em uma
+            fábrica de softwares e continuo meus estudos na UNIESP-PB.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -204,37 +171,28 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} /> +
+                  <CountUp start={0} end={2} duration={8} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Years of experience
+                  Anos de experiência
                 </div>
               </div>
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={15} duration={5} /> +
+                  <CountUp start={0} end={7} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Completed courses
+                  Cursos Completados
                 </div>
               </div>
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={40} duration={8} /> +
+                  <CountUp start={0} end={3} duration={8} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished projects
-                </div>
-              </div>
-              {/* awards */}
-              <div className="relative flex-1">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={4} duration={5} /> +
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning Hackathon
+                  Projetos Finalizados
                 </div>
               </div>
             </div>
