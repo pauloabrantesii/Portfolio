@@ -5,17 +5,22 @@ export const workSlider = {
       images: [
         {
           title: "title",
-          path: "/csf-banner.png",
+          path: "/csf-mobile.png",
           url: "https://play.google.com/store/apps/details?id=com.csf.cliente&hl=pt_BR&gl=US",
         },
         {
           title: "title",
-          path: "/doctors.png",
+          path: "/doctors-medico.png",
           url: "",
         },
         {
           title: "title",
-          path: "/github.png",
+          path: "/doc-paciente.png",
+          url: "",
+        },
+        {
+          title: "title",
+          path: "/github-paulo.png",
           url: "https://github.com/pauloabrantesii",
         },
       ],
