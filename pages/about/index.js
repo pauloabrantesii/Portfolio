@@ -1,24 +1,13 @@
 import React, { useState } from "react";
 
 // icons
+import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaNodeJs,
-  FaFigma,
-  FaPython,
-} from "react-icons/fa";
-
-import {
-  SiNextdotjs,
+  SiExpo,
+  SiFirebase,
+  SiSentry,
+  SiSonarqube,
   SiTypescript,
-  SiAdobexd,
-  SiAdobephotoshop,
-  SiRedux,
-  SiPostgresql,
-  SiMongodb,
 } from "react-icons/si";
 
 //  about data
@@ -34,6 +23,15 @@ export const aboutData = [
           <FaJs key={2} />,
           <FaReact key={3} />,
           <SiTypescript key={4} />,
+          <SiExpo key={5} />,
+        ],
+      },
+      {
+        title: "Ferramentas e Serviços:",
+        icons: [
+          <SiFirebase key={0} />,
+          <SiSentry key={1} />,
+          <SiSonarqube key={2} />,
         ],
       },
       {
@@ -59,11 +57,23 @@ export const aboutData = [
     title: "experiência",
     info: [
       {
-        title: "Fundador - Rocket Solutions",
+        title: "Fundador - CouldWave Technology",
       },
       {
-        title: "Front end Developer - Fabrika",
-        // stage: "2023 - ",
+        title: "Front end Developer - Hopy Tecnologia",
+        stage: "2019 - 2022 ",
+      },
+      {
+        title: "Mobile Developer - React Native",
+        stage: "2022 - 2023 ",
+      },
+      {
+        title: "Front end Developer - Fabrika SVF",
+        stage: "2023 - 2024 ",
+      },
+      {
+        title: "Full Stack Developer REACT/NODE - BLUMA",
+        stage: "2024 - Atual ",
       },
     ],
   },
@@ -99,8 +109,11 @@ export const aboutData = [
         // stage: "2023",
       },
       {
-        title:
-          "Certificado - Desenvolvimento WebReact JS React do Zero a Maestria - Udemy",
+        title: "Certificado - Desenvolvimento WebReact JS - Udemy",
+        // stage: "2023",
+      },
+      {
+        title: "Curso Dev full cycle",
         // stage: "2023",
       },
     ],
@@ -144,8 +157,8 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Narrativas <span className="text-accent">envolventes</span> geram
-            designs esplêndidos.
+            Quando a narrativa <span className="text-accent">envolve</span>, o
+            design encanta.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -154,10 +167,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            Há 2 anos, iniciei meus estudos para me tornar um desenvolvedor
-            front-end. Desde então, venho me aperfeiçoando na área. Hoje, faço
-            parte de uma equipe de desenvolvedores de aplicativos móveis em uma
-            fábrica de softwares e continuo meus estudos na UNIESP-PB.
+            🚀 Desenvolvedor Front-end Olá! Me chamo Paulo Roberto, sou de João
+            Pessoa - PB e tenho 25 anos. Sou um desenvolvedor front-end
+            apaixonado por tecnologia, com experiência sólida na construção de
+            aplicativos e sistemas escaláveis.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -171,7 +184,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={2} duration={8} /> +
+                  <CountUp start={0} end={6} duration={8} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Anos de experiência
@@ -180,7 +193,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={7} duration={5} /> +
+                  <CountUp start={0} end={8} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Cursos Completados
@@ -189,7 +202,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={3} duration={8} /> +
+                  <CountUp start={0} end={10} duration={8} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Projetos Finalizados
@@ -237,8 +250,23 @@ const About = () => {
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
                       return (
-                        <div key={itemIndex} className="text-2xl text-white">
-                          {icon}
+                        <div
+                          key={itemIndex}
+                          className="flex flex-col items-center gap-y-2"
+                        >
+                          <div className="text-2xl text-white">{icon}</div>
+                          <span className="text-xs text-white/60">
+                            {icon.type.name === "FaHtml5" && "HTML5"}
+                            {icon.type.name === "FaCss3" && "CSS3"}
+                            {icon.type.name === "FaJs" && "JavaScript"}
+                            {icon.type.name === "FaReact" && "React"}
+                            {icon.type.name === "SiTypescript" && "TypeScript"}
+                            {icon.type.name === "SiExpo" && "Expo"}
+                            {icon.type.name === "SiFirebase" && "Firebase"}
+                            {icon.type.name === "SiSentry" && "Sentry"}
+                            {icon.type.name === "SiSonarqube" && "SonarQube"}
+                            {icon.type.name === "FaFigma" && "Figma"}
+                          </span>
                         </div>
                       );
                     })}

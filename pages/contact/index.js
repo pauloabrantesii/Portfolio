@@ -1,10 +1,9 @@
 // components
-import Circles from "/components/Circles";
 import Link from "next/link";
 
 // icons
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { VscGithub } from "react-icons/vsc";
-import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 // framer
 import { motion } from "framer-motion";
@@ -37,7 +36,7 @@ const Contact = () => {
             className="flex justify-center gap-6"
           >
             <Link
-              href="https://www.linkedin.com/in/paulo-roberto-128b5a254/"
+              href="https://www.linkedin.com/in/paulo-abrantes-128b5a254"
               target="blank"
               passHref
             >

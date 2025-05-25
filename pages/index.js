@@ -1,10 +1,9 @@
 // next image
-import Image from "next/image";
 
 // components
+import Avatar from "../components/Avatar";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import Avatar from "../components/Avatar";
 
 // framer motion
 import { motion } from "framer-motion";
@@ -37,8 +36,8 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Meu nome é Paulo Roberto, sou estudante de Sistemas para Internet na
-            Uniesp-PB. Atuo com desenvolvimento de plataformas web e mobile
+            Meu nome é Paulo Roberto, Sou desenvolvedor Front-end desde 2019.
+            Acompanhe um pouco da minha jornada!
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative z-50">
